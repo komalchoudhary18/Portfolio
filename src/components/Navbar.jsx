@@ -2,9 +2,9 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className='bg-black text-white px-8 md:px-16 lg:px-24'>
-        <div className='container py-2 flex justify-center md:justify-between items-center'>
-            <div className='text-2xl font-bold hidden md:inline'>Yousof</div>
+    <nav className='px-8 text-white bg-black md:px-16 lg:px-24'>
+        <div className='container flex items-center justify-center py-2 md:justify-between'>
+            <div className='hidden text-2xl font-bold md:inline'>Komal Kumari</div>
             <div className='space-x-6'>
                 <a href="#home" className='hover:text-gray-400'>Home</a>
                 <a href="#about" className='hover:text-gray-400'>About Me</a>
@@ -12,8 +12,7 @@ const Navbar = () => {
                 <a href="#project" className='hover:text-gray-400'>Projects</a>
                 <a href="#contact" className='hover:text-gray-400'>Contact</a>
             </div>
-            <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline
-            transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>Connect Me</button>
+            <button className='hidden px-4 py-2 text-white transition-transform duration-300 transform rounded-full bg-gradient-to-r from-green-400 to-blue-500 md:inline hover:scale-105'>Connect Me</button>
         </div>
     </nav>
   )
